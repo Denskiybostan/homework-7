@@ -15,21 +15,17 @@ public class Main {
     String surnameAuthor2 = "Tolstoy";
     String [] namesAuthors = {"Alexandr", "Lev"};
     String [] surnamesAuthors = {"Pushkin", "Tolstoy"};
-        for (int i = 0; i < namesOfBooks.length; i++) {
-            System.out.println("Наименование книги " + namesOfBooks[i] + " год издания " + yearsOfIssue[i]);
-        }
-        for (int i = 0; i < namesAuthors.length; i++){
-            System.out.println("Имя автора " + namesAuthors[i] + " фамилия автора " + surnamesAuthors[i]);
-        }
+
+
 
         Author AlexandrPushkin = new Author("Alexandr", "Pushkin");
-        book rusalka = new book("Rusalka", 1837);
+        book rusalka = new book("Rusalka", 1837, AlexandrPushkin);
         System.out.println("Название книги  = " + rusalka.getNameOfBook() + " год издания " + rusalka.getYearOfIssue());
         System.out.println("Имя автора = " + AlexandrPushkin.getName() + " фамилия автора " + AlexandrPushkin.getSurname());
         rusalka.setYearOfIssue(1838);
         System.out.println("год издания " + rusalka.getYearOfIssue());
-        book voynaIMir = new book ("Voyna i mir", 1867);
         Author LevTolstoy = new Author("Lev", "Tolstoy");
+        book voynaIMir = new book ("Voyna i mir", 1867, LevTolstoy);
         System.out.println("Название книги = " + voynaIMir.getNameOfBook() + " год выпуска " + voynaIMir.getYearOfIssue());
         System.out.println("Имя автора = " + LevTolstoy.getName() + " фамилия автора " + LevTolstoy.getSurname());
 
