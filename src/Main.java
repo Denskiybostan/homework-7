@@ -28,6 +28,8 @@ public class Main {
         book voynaIMir = new book ("Voyna i mir", 1867, LevTolstoy);
         System.out.println("Название книги = " + voynaIMir.getNameOfBook() + " год выпуска " + voynaIMir.getYearOfIssue());
         System.out.println("Имя автора = " + LevTolstoy.getName() + " фамилия автора " + LevTolstoy.getSurname());
+        System.out.println(rusalka.hashCode());
+        System.out.println(voynaIMir.hashCode());
 
 }
 }
