@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5cfbb6f-c8b0-4fc5-bed0-9a1fe66c8237" name="Changes" comment="задание поправлено согласно условию">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/book.java" afterDir="false" />
-    </list>
+    <list default="true" id="d5cfbb6f-c8b0-4fc5-bed0-9a1fe66c8237" name="Changes" comment="задание поправлено согласно условию" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699735592517</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="задание поправлено согласно условию">
+      <option name="closed" value="true" />
+      <created>1699820019199</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699820019199</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

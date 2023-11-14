@@ -1,11 +1,11 @@
 import java.util.Objects;
 
-public class book {
+public class Book {
     private Author author;
-    int yearOfIssue;
-    String nameOfBook;
+    private int yearOfIssue;
+    private String nameOfBook;
 
-    public book(String nameOfBook, int yearOfIssue, Author author) {
+    public Book(String nameOfBook, int yearOfIssue, Author author) {
         this.nameOfBook = nameOfBook;
         this.yearOfIssue = yearOfIssue;
         this.author = author;
@@ -37,7 +37,7 @@ public class book {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        book book = (book) o;
+        Book book = (Book) o;
         return yearOfIssue == book.yearOfIssue && Objects.equals(author, book.author) && Objects.equals(nameOfBook, book.nameOfBook);
     }
 
